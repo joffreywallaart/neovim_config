@@ -9,7 +9,7 @@ return {
     "williamboman/mason-lspconfig.nvim",
     config = function()
       require("mason-lspconfig").setup({
-        ensure_installed = { "lua_ls", "openscad_lsp", "jedi_language_server", "ansiblels"}
+        ensure_installed = { "lua_ls", "openscad_lsp", "jedi_language_server", "ansiblels" }
     })
     end
   },
